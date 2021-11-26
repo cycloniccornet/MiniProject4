@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Pack Cash",
+      "type": "textfield",
+      "id": "Field_1km75nz",
+      "key": "money",
+      "description": "How much cash do you want to bring",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "^(?:0|[1-9][0-9]*)\\\\.[0-9]+$"
+      }
+    },
+    {
+      "label": "Where are you headed?",
+      "type": "textfield",
+      "id": "Field_0hv73wc",
+      "key": "country",
+      "description": "Country you are going to",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "RegEx: America|France"
+      }
+    },
+    {
+      "label": "Enter price of Taxi",
+      "type": "textfield",
+      "id": "Field_13ieeqe",
+      "key": "taxiCost",
+      "description": "For tax reasons",
+      "validate": {
+        "regularExpressionPattern": "^(?:0|[1-9][0-9]*)\\\\.[0-9]+$"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1xerebk"
+}
