@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# \n#${bankInterest}",
+      "type": "text",
+      "id": "Field_0hbxrnw"
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "confirm"
+        },
+        {
+          "label": "No",
+          "value": "declined"
+        }
+      ],
+      "label": "Validate Bank Offer",
+      "type": "select",
+      "id": "Field_0uygylq",
+      "key": "validate",
+      "validate": {
+        "required": true
+      },
+      "description": "Can you validate the bank loan"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1xerebk"
+}

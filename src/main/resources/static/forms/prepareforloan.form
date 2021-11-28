@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "label": "Loan Amount",
+      "type": "textfield",
+      "id": "Field_1km75nz",
+      "key": "loan",
+      "description": "How much cash do you want borrow",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "^(?:0|[1-9][0-9]*)\\\\.[0-9]+$"
+      }
+    },
+    {
+      "label": "Income",
+      "type": "textfield",
+      "id": "Field_17k20qd",
+      "key": "income",
+      "description": "How much money do you make each month",
+      "validate": {
+        "required": true,
+        "regularExpressionPattern": "^(?:0|[1-9][0-9]*)\\\\.[0-9]+$"
+      }
+    },
+    {
+      "label": "Fullname",
+      "type": "textfield",
+      "id": "Field_1t61yfl",
+      "key": "fullname",
+      "description": "Enter your full name",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "Form_1xerebk"
+}

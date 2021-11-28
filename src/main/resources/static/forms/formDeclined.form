@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "text": "# Status about your application\n\nYour application was declined. Please contact bank",
+      "type": "text",
+      "id": "Field_08lh5ck"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1xerebk"
+}

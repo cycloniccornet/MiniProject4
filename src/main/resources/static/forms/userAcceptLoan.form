@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 2,
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "Accept Loan",
+      "type": "select",
+      "id": "Field_1ucxlx4",
+      "key": "userloan",
+      "description": "Do you accept your loan?"
+    }
+  ],
+  "type": "default",
+  "id": "Form_1xerebk"
+}
